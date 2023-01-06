@@ -5,12 +5,12 @@
 .head-main{
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
-    height: auto;
+    height: 100vh;
     width: 100%;
 }
 .head-title{
-    text-align: left;
-    padding: 200px 100px;
+    text-align: right;
+    padding: 200px 150px;
 }
 .text-primary{  /* primary text, we will use it in many portion */
     padding: 30px 0px;
@@ -21,10 +21,11 @@
 .btn-primary{
     border: 1px solid rgb(255, 106, 0);
     color: white;
+    font-size: 17px;
     background-color: rgb(255, 106, 0);
     border-radius: 5px;
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width: 130px;
 }
 
 /* My Failure section */
@@ -77,6 +78,7 @@ ul span {
 .contact{
     background-image: url('../images/gradient2.png') , url('../images/watch.png');
     background-size: cover;
+    background-blend-mode: multiply;
     height: 300px;
     background-repeat: no-repeat;
     border-radius: 10px;
