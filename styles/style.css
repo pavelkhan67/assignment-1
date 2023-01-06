@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+/* Header Section Style */
+.head-main{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.head-title{
+    text-align: left;
+    padding: 200px 100px;
+}
+.text-primary{  /* primary text, we will use it in many portion */
+    padding: 30px 0px;
+    color: rgb(41, 42, 43);
+    font-weight: 500;
+    font-size: larger;
+}
+.btn-primary{
+    border: 1px solid rgb(255, 106, 0);
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+
+/* My Failure section */
+.my-failure {
+    display: flex;
+    padding: 100px 100px 100px 200px;
+    gap: 100px;
+}
+
+.failure-description{
+    padding-top: 100px;
+    
+}
+
+ul{
+    list-style: none;
+    margin-left: -33px;
+}
+ul span {
+    color: rgb(182, 240, 140);
+}
+/* My Recovery section */
+.my-recovery{
+    display: flex;
+    padding: 100px 100px 100px 200px;
+    gap: 100px;
+    background-color: rgba(250, 235, 215, 0.378);
+}
+/* My plans section */
+.my-plans{
+    text-align: center;
+    padding: 80px 200px 50px 200px;
+}
+.my-plan{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.plan h3{
+    padding-top: 7px;
+}
+.plan p{
+    padding: 5px 0px;
+    color: rgb(41, 42, 43);
+    font-weight: 500;
+    font-size: larger;
+}
+/* Contact section */
+.contact{
+    background-image: url('../images/gradient2.png') , url('../images/watch.png');
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 60px 150px;
+}
+.contact-me{
+    padding: 90px 50px;
+}
+.btn-secondary{
+    border: 0;
+    color: rgb(255, 106, 0);
+    background-color: rgb(238, 230, 230);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+
+/* Footer section */
+.footer{
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    gap: 200px;
+    padding: 100px 150px;
+}
+
+.future p{
+    padding: 5px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.email .mail{
+    background-color: rgb(20, 19, 19);
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    border: 1px solid white;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.753);
+  }
+.btn{
+    padding-top: 7px;
+}
