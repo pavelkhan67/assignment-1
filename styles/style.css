@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /* Header Section Style */
 .head-main{
@@ -14,7 +15,7 @@
 }
 .text-primary{  /* primary text, we will use it in many portion */
     padding: 30px 0px;
-    color: rgb(41, 42, 43);
+    color: #444343;
     font-weight: 500;
     font-size: larger;
 }
@@ -43,6 +44,7 @@
 ul{
     list-style: none;
     margin-left: -33px;
+    color: #444343;
 }
 ul span {
     color: rgb(182, 240, 140);
@@ -70,7 +72,7 @@ ul span {
 }
 .plan p{
     padding: 5px 0px;
-    color: rgb(41, 42, 43);
+    color: #444343;
     font-weight: 500;
     font-size: larger;
 }
@@ -106,11 +108,16 @@ ul span {
 
 .future p{
     padding: 5px 0px;
-    color: white;
+    color: rgba(255, 255, 255, 0.968);
     font-weight: 500;
 }
+.future .f-icon{
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+}
 
-.email .mail{
+ .subscribe .mail{
     background-color: rgb(20, 19, 19);
     height: 30px;
     width: 200px;
@@ -118,9 +125,10 @@ ul span {
     padding: 5px 0 5px 10px;
     border: 1px solid white;
 }
-::placeholder {
+
+::placeholder { /* Changing the paceholder color */
     color: rgba(255, 255, 255, 0.753);
   }
-.btn{
+.subscribe .btn{
     padding-top: 7px;
 }
