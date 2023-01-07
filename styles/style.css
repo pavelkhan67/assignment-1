@@ -32,6 +32,7 @@
 /* My Failure section */
 .my-failure {
     display: flex;
+    justify-content: center;
     padding: 100px 100px 100px 200px;
     gap: 100px;
 }
@@ -52,6 +53,7 @@ ul span {
 /* My Recovery section */
 .my-recovery{
     display: flex;
+    justify-content: center;
     padding: 100px 100px 100px 200px;
     gap: 100px;
     background-color: rgba(250, 235, 215, 0.378);
